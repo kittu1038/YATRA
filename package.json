@@ -4,7 +4,7 @@
   "description": "YATRA — Indian Travel Discovery & Trip Planning Platform",
   "scripts": {
     "dev": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
     "backend": "npm --prefix backend start"
   }
 }
