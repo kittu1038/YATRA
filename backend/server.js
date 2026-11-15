@@ -43,3 +43,6 @@ app.get('/api/health', (req, res) => res.json({ status: 'ok', version: '1.0.0' }
 app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`YATRA API running on :${PORT}`));
+
+export default app;
+
